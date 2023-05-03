@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-family: 30px;
+        }
+        table {
+            width: 300px;
+        }
+        th,td, table{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        th,td {
+            padding: 5px;
+        }
+        th {
+            background-color: gray;
+            color: white;
+        }
+        .numero {
+            text-align: center;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }   
+    </style>
+</head>
+<body>
+    <h1>Games mais comprados em 2019 Q3</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Jogo</th>
+                <th>Vendas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Minecraft</td>
+                <td class="numero">181M+</td>
+            </tr>
+            <tr>
+                <td>GTA V</td>
+                <td class="numero">112M+</td>
+            </tr>
+            <tr>
+                <td>PUBG</td>
+                <td class="numero">105M+</td>
+            </tr>
+            <tr>
+                <td>Tetris</td>
+                <td class="numero">59M+</td>
+            </tr>
+            <tr>
+                <td>Wii Fit</td>
+                <td class="numero">43M+</td>
+            </tr>
+            <tr>
+                <td>Super Mario Bros</td>
+                <td class="numero">40M+</td>
+            </tr>
+            <tr>
+                <td>Diablo III</td>
+                <td class="numero">39M+</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
