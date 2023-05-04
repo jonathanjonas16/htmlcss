@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com links</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/3d-plastilina/69/null/add-bookmark--v1.png"/> type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(66, 66, 66);
+            color: rgb(214, 214, 214);
+        }
+        ul li{
+            text-decoration: none;
+            font-size: larger;
+        }
+        a:hover{
+            color: lightblue;
+        }
+        a {
+            color: white;
+        }
+        iframe {
+            display: block;
+            margin: auto;
+            border: 1px solid black;
+            background-color: rgb(110, 108, 108);
+            width: 700px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sites dentro de iframes</h1>
+    <p>Aqui tem alguns links que ao clicar, irá aparecer no iframe que está logo abaixo</p>
+    <ul>
+        <li><a href="links-extras/pag1.html" target="frame1">PAGINA 01</a></li>
+        <li><a href="links-extras/pag2.html" target="frame1">PAGINA 02</a></li>
+        <li><a href="links-extras/pag3.html" target="frame1">PAGINA 03</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel culpa sit expedita similique quia exercitationem voluptate accusamus sequi quaerat corrupti nostrum, quam asperiores, nisi aliquam sapiente rerum possimus, aperiam consectetur!</p>
+    <!-- O SEU IFRAME PRECISA DE UM NAME PARA A PORRA DO LINK SABER QUE É ALI QUE TEM QUE APARECER ENTENDEU SEU FILHO DA PUTA?-->
+    <iframe src="" frameborder="0" name="frame1"></iframe>
+</body>
+</html>
