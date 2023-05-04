@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando Tabelas</title>
+    <style>
+        td{
+            border: 1px solid red;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+            padding: 3px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclando Tabelas</h1>
+    <div>
+        <h3>rowspan="x"</h3>
+        <h3>colspan="x"</h3>
+    </div>
+    
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td colspan="2">D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+        </tr>
+    </table>
+</body>
+</html>
