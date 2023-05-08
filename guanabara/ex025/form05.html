@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio and Checkbox</title>
+</head>
+<body>
+    <h1>Formulario 5 - RADIO E CHECKBOX</h1>
+    <label for="inome">Nome </label><input type="text" name="nome" id="inome"><br>
+    <br>
+
+    <form action="teste.php" method="get">
+        <fieldset>
+            <legend>SEXO</legend>
+            <input type="radio" name="sexo" id="ifemi" value="F">
+            <label for="ifemi">Feminino</label>
+            <input type="radio" name="sexo" id="imasc" value="M">
+            <label for="imasc">Masculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>VIDEOGAMES</legend>
+            <p>Quais jogos você mais gosta?</p>
+            <input type="checkbox" name="ds1" id="ids1"> <label for="ids1">Dark Souls 1</label> <br>
+            <input type="checkbox" name="mario" id="imario"> <label for="imario">Super Mario Bros</label> <br>
+            <input type="checkbox" name="minecraft" id="iminecraft"> <label for="iminecraft">Minecraft</label><br>
+        </fieldset>
+        <br><input type="submit" value="ENVIAR">
+        <input type="reset" value="RESETAR">
+    </form>
+</body>
+</html>
